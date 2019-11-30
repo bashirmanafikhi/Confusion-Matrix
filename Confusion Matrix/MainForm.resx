@@ -164,10 +164,10 @@
   <data name="btnExit.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAFOoAABTqAXGVhlcAAACySURBVEhLxZI7EoNADEMpcyPuzQUTdidm/JHXVkImxSvA
-        0hMF2/HYNU+Fv1XAbhYIwYK0uwoIkslAHWEOoIPHSwWUNbRCb2j5gBkYUPIBXSAp/6JvmF49cOfI5dRy
-        ARUYjM88KFCxQ3CFFwokWIEc/xtAgg7BFV6coCKD8ZmHE1T4hMv5C7lgBlDgDuYAOmTQH8SERU6NdINe
-        LqCsoRPUQgTqCOVfpO8r0u4q6G8VoLtvL56bnO47LAfPAAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAAFOoAABTqAXGVhlcAAAC0SURBVEhLtc5RDsMwCANQ7n/pjk1xBcEQqLqPF6nEOJVL
+        xLqM/e6E7maBEDxId6sAIJNhO6BnHDJ7KbCs0wottri91w4uo/Kv8cKQng/+qunXax9485G705YDW5hw
+        fe7DYIsdoSsMDFZQYR18uLCSCuvgQ8UKOkJXGCi2OOH63IdiC0/cnf8oB/cAC7xBzzisjH9oEkY5sEzQ
+        Ddpii2WdThCZDNsBPeugva+ku1VwvzshuyIfGdq8bgKG7VcAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -502,10 +502,10 @@
   </data>
   <data name="btnMinimize.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEbAAABGwAcgn9VQAAABkSURBVEhL7dMhDoBADAXR3gZIAAsEuP91kLiS9ZNgpoYg
-        nhmx33QjM0thNGE0YTRhNGE0YTRhNMXQ9bGtyz2PU5rOY7/a220gK/0Dr74xUHum9DlMGE0YTRhNGE0Y
-        TRhNGD0ZD8oilBQNs3j3AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAR
+        sAAAEbAByCf1VAAAAGRJREFUSEvt0yEOgEAMBdHeBkgACwS4/3WQuJL1k2CmhiCeGbHfdCMzS2E0YTRh
+        NGE0YTRhNGE0xdD1sa3LPY9Tms5jv9rbbSAr/QOvvjFQe6b0OUwYTRhNGE0YTRhNGE0YPRkPyiKUFA2z
+        ePcAAAAASUVORK5CYII=
 </value>
   </data>
 </root>
