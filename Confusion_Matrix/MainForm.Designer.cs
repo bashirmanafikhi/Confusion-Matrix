@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.pnlTopBorder = new System.Windows.Forms.Panel();
             this.pnlNavMenu = new System.Windows.Forms.Panel();
+            this.pnlRibon = new System.Windows.Forms.Panel();
             this.btnNavSettings = new System.Windows.Forms.Button();
             this.btnNavTutorials = new System.Windows.Forms.Button();
             this.btnNavMultiple = new System.Windows.Forms.Button();
@@ -46,15 +48,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.pnlContainer = new System.Windows.Forms.Panel();
+            this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.pageHome1 = new Confusion_Matrix.UserControles.PageHome();
             this.pnlNavMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.pnlContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTopBorder
             // 
             this.pnlTopBorder.BackColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuTransition1.SetDecoration(this.pnlTopBorder, BunifuAnimatorNS.DecorationType.None);
             this.pnlTopBorder.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopBorder.Location = new System.Drawing.Point(0, 0);
             this.pnlTopBorder.Name = "pnlTopBorder";
@@ -64,19 +70,31 @@
             // pnlNavMenu
             // 
             this.pnlNavMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.pnlNavMenu.Controls.Add(this.pnlRibon);
             this.pnlNavMenu.Controls.Add(this.btnNavSettings);
             this.pnlNavMenu.Controls.Add(this.btnNavTutorials);
             this.pnlNavMenu.Controls.Add(this.btnNavMultiple);
             this.pnlNavMenu.Controls.Add(this.btnNavBinary);
             this.pnlNavMenu.Controls.Add(this.btnNavHome);
+            this.bunifuTransition1.SetDecoration(this.pnlNavMenu, BunifuAnimatorNS.DecorationType.None);
             this.pnlNavMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlNavMenu.Location = new System.Drawing.Point(0, 16);
             this.pnlNavMenu.Name = "pnlNavMenu";
             this.pnlNavMenu.Size = new System.Drawing.Size(130, 500);
             this.pnlNavMenu.TabIndex = 1;
             // 
+            // pnlRibon
+            // 
+            this.pnlRibon.BackColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuTransition1.SetDecoration(this.pnlRibon, BunifuAnimatorNS.DecorationType.None);
+            this.pnlRibon.Location = new System.Drawing.Point(0, 0);
+            this.pnlRibon.Name = "pnlRibon";
+            this.pnlRibon.Size = new System.Drawing.Size(10, 100);
+            this.pnlRibon.TabIndex = 6;
+            // 
             // btnNavSettings
             // 
+            this.bunifuTransition1.SetDecoration(this.btnNavSettings, BunifuAnimatorNS.DecorationType.None);
             this.btnNavSettings.FlatAppearance.BorderSize = 0;
             this.btnNavSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNavSettings.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -94,6 +112,7 @@
             // 
             // btnNavTutorials
             // 
+            this.bunifuTransition1.SetDecoration(this.btnNavTutorials, BunifuAnimatorNS.DecorationType.None);
             this.btnNavTutorials.FlatAppearance.BorderSize = 0;
             this.btnNavTutorials.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNavTutorials.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -111,6 +130,7 @@
             // 
             // btnNavMultiple
             // 
+            this.bunifuTransition1.SetDecoration(this.btnNavMultiple, BunifuAnimatorNS.DecorationType.None);
             this.btnNavMultiple.FlatAppearance.BorderSize = 0;
             this.btnNavMultiple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNavMultiple.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -128,6 +148,7 @@
             // 
             // btnNavBinary
             // 
+            this.bunifuTransition1.SetDecoration(this.btnNavBinary, BunifuAnimatorNS.DecorationType.None);
             this.btnNavBinary.FlatAppearance.BorderSize = 0;
             this.btnNavBinary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNavBinary.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -145,6 +166,7 @@
             // 
             // btnNavHome
             // 
+            this.bunifuTransition1.SetDecoration(this.btnNavHome, BunifuAnimatorNS.DecorationType.None);
             this.btnNavHome.FlatAppearance.BorderSize = 0;
             this.btnNavHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNavHome.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -172,6 +194,7 @@
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnExit.BackgroundImage")));
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuTransition1.SetDecoration(this.btnExit, BunifuAnimatorNS.DecorationType.None);
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,6 +210,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.pictureBox1);
+            this.bunifuTransition1.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
             this.panel1.Location = new System.Drawing.Point(7, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(106, 73);
@@ -194,6 +218,7 @@
             // 
             // pictureBox1
             // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -208,6 +233,7 @@
             this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.panel1);
+            this.bunifuTransition1.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
             this.panel2.Location = new System.Drawing.Point(152, 16);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(120, 100);
@@ -216,6 +242,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(9, 81);
@@ -227,6 +254,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.label2.Location = new System.Drawing.Point(278, 22);
@@ -240,6 +268,7 @@
             this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize.BackgroundImage")));
             this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuTransition1.SetDecoration(this.btnMinimize, BunifuAnimatorNS.DecorationType.None);
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -253,11 +282,45 @@
             // 
             // pnlContainer
             // 
+            this.pnlContainer.Controls.Add(this.pageHome1);
+            this.bunifuTransition1.SetDecoration(this.pnlContainer, BunifuAnimatorNS.DecorationType.None);
             this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlContainer.Location = new System.Drawing.Point(130, 116);
             this.pnlContainer.Name = "pnlContainer";
             this.pnlContainer.Size = new System.Drawing.Size(700, 400);
             this.pnlContainer.TabIndex = 5;
+            // 
+            // bunifuTransition1
+            // 
+            this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
+            this.bunifuTransition1.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation1;
+            this.bunifuTransition1.Interval = 4;
+            this.bunifuTransition1.TimeStep = 0.03F;
+            // 
+            // pageHome1
+            // 
+            this.pageHome1.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuTransition1.SetDecoration(this.pageHome1, BunifuAnimatorNS.DecorationType.None);
+            this.pageHome1.Location = new System.Drawing.Point(0, 0);
+            this.pageHome1.Name = "pageHome1";
+            this.pageHome1.Size = new System.Drawing.Size(700, 400);
+            this.pageHome1.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -271,6 +334,7 @@
             this.Controls.Add(this.pnlTopBorder);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnExit);
+            this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.Text = "Confusion Matrix";
@@ -279,6 +343,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.pnlContainer.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -302,6 +367,9 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnNavSettings;
         private System.Windows.Forms.Panel pnlContainer;
+        private UserControles.PageHome pageHome1;
+        private System.Windows.Forms.Panel pnlRibon;
+        private BunifuAnimatorNS.BunifuTransition bunifuTransition1;
     }
 }
 

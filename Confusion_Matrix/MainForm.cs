@@ -18,9 +18,6 @@ namespace Confusion_Matrix
         public MainForm()
         {
             InitializeComponent();
-            ConfusionMatrix confusionMatrix = new ConfusionMatrix();
-
-
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -33,30 +30,42 @@ namespace Confusion_Matrix
             this.WindowState = FormWindowState.Minimized;
         }
 
+
         private void btnNav_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            pnlContainer.Controls.Clear();
 
+            pnlRibon.Location = button.Location;
+            pnlRibon.Visible = false;
+            bunifuTransition1.ShowSync(pnlRibon, false, BunifuAnimatorNS.Animation.Scale);
+
+            // show the page
+            pnlContainer.Controls.Clear();
+            UserControl page;
             switch (button.Name)
             {
                 case "btnNavHome":
-                    pnlContainer.Controls.Add(new PageHome());
+                    page = new PageHome();
                     break;
                 case "btnNavBinary":
-                    pnlContainer.Controls.Add(new PageBinaryClasses());
+                    page = new PageBinaryClasses();
                     break;
                 case "btnNavMultiple":
-                    pnlContainer.Controls.Add(new PageMultipleClasses());
+                    page = new PageMultipleClasses();
                     break;
                 case "btnNavTutorials":
-                    pnlContainer.Controls.Add(new PageTutorials());
+                    page = new PageTutorials();
                     break;
                 case "btnNavSettings":
-                    pnlContainer.Controls.Add(new PageSettings());
+                    page = new PageSettings();
                     break;
+                default:
+                    return;
             }
-            
+
+            page.Visible = false;
+            pnlContainer.Controls.Add(page);
+            bunifuTransition1.ShowSync(page, false, BunifuAnimatorNS.Animation.Rotate);
         }
     }
 }

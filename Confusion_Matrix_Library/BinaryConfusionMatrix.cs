@@ -8,6 +8,13 @@ namespace Confusion_Matrix_Library
     {
         double tp, tn, fp, fn;
 
+        public BinaryConfusionMatrix(double tp, double tn, double fp, double fn)
+        {
+            this.tp = tp;
+            this.tn = tn;
+            this.fp = fp;
+            this.fn = fn;
+        }
 
         public double Accuracy
         {
