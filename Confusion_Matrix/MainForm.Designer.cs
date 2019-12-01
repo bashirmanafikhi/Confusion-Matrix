@@ -32,10 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.pnlTopBorder = new System.Windows.Forms.Panel();
             this.pnlNavMenu = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnNavSettings = new System.Windows.Forms.Button();
+            this.btnNavTutorials = new System.Windows.Forms.Button();
+            this.btnNavMultiple = new System.Windows.Forms.Button();
+            this.btnNavBinary = new System.Windows.Forms.Button();
+            this.btnNavHome = new System.Windows.Forms.Button();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.btnExit = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -44,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.pnlContainer = new System.Windows.Forms.Panel();
             this.pnlNavMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,85 +58,107 @@
             this.pnlTopBorder.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopBorder.Location = new System.Drawing.Point(0, 0);
             this.pnlTopBorder.Name = "pnlTopBorder";
-            this.pnlTopBorder.Size = new System.Drawing.Size(800, 16);
+            this.pnlTopBorder.Size = new System.Drawing.Size(830, 16);
             this.pnlTopBorder.TabIndex = 0;
             // 
             // pnlNavMenu
             // 
             this.pnlNavMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.pnlNavMenu.Controls.Add(this.button4);
-            this.pnlNavMenu.Controls.Add(this.button3);
-            this.pnlNavMenu.Controls.Add(this.button2);
-            this.pnlNavMenu.Controls.Add(this.button1);
+            this.pnlNavMenu.Controls.Add(this.btnNavSettings);
+            this.pnlNavMenu.Controls.Add(this.btnNavTutorials);
+            this.pnlNavMenu.Controls.Add(this.btnNavMultiple);
+            this.pnlNavMenu.Controls.Add(this.btnNavBinary);
+            this.pnlNavMenu.Controls.Add(this.btnNavHome);
             this.pnlNavMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlNavMenu.Location = new System.Drawing.Point(0, 16);
             this.pnlNavMenu.Name = "pnlNavMenu";
-            this.pnlNavMenu.Size = new System.Drawing.Size(130, 430);
+            this.pnlNavMenu.Size = new System.Drawing.Size(130, 500);
             this.pnlNavMenu.TabIndex = 1;
             // 
-            // button4
+            // btnNavSettings
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.Location = new System.Drawing.Point(3, 324);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(124, 100);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Settings";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnNavSettings.FlatAppearance.BorderSize = 0;
+            this.btnNavSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNavSettings.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNavSettings.ForeColor = System.Drawing.Color.White;
+            this.btnNavSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnNavSettings.Image")));
+            this.btnNavSettings.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNavSettings.Location = new System.Drawing.Point(0, 400);
+            this.btnNavSettings.Name = "btnNavSettings";
+            this.btnNavSettings.Size = new System.Drawing.Size(130, 100);
+            this.btnNavSettings.TabIndex = 2;
+            this.btnNavSettings.Text = "Settings";
+            this.btnNavSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNavSettings.UseVisualStyleBackColor = true;
+            this.btnNavSettings.Click += new System.EventHandler(this.btnNav_Click);
             // 
-            // button3
+            // btnNavTutorials
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.Location = new System.Drawing.Point(3, 218);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 100);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Muliple Class";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnNavTutorials.FlatAppearance.BorderSize = 0;
+            this.btnNavTutorials.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNavTutorials.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNavTutorials.ForeColor = System.Drawing.Color.White;
+            this.btnNavTutorials.Image = ((System.Drawing.Image)(resources.GetObject("btnNavTutorials.Image")));
+            this.btnNavTutorials.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNavTutorials.Location = new System.Drawing.Point(0, 300);
+            this.btnNavTutorials.Name = "btnNavTutorials";
+            this.btnNavTutorials.Size = new System.Drawing.Size(130, 100);
+            this.btnNavTutorials.TabIndex = 2;
+            this.btnNavTutorials.Text = "Toturials";
+            this.btnNavTutorials.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNavTutorials.UseVisualStyleBackColor = true;
+            this.btnNavTutorials.Click += new System.EventHandler(this.btnNav_Click);
             // 
-            // button2
+            // btnNavMultiple
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.Location = new System.Drawing.Point(3, 112);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 100);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "One Class";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnNavMultiple.FlatAppearance.BorderSize = 0;
+            this.btnNavMultiple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNavMultiple.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNavMultiple.ForeColor = System.Drawing.Color.White;
+            this.btnNavMultiple.Image = ((System.Drawing.Image)(resources.GetObject("btnNavMultiple.Image")));
+            this.btnNavMultiple.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNavMultiple.Location = new System.Drawing.Point(0, 200);
+            this.btnNavMultiple.Name = "btnNavMultiple";
+            this.btnNavMultiple.Size = new System.Drawing.Size(130, 100);
+            this.btnNavMultiple.TabIndex = 2;
+            this.btnNavMultiple.Text = "Multiple Classes";
+            this.btnNavMultiple.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNavMultiple.UseVisualStyleBackColor = true;
+            this.btnNavMultiple.Click += new System.EventHandler(this.btnNav_Click);
             // 
-            // button1
+            // btnNavBinary
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.Location = new System.Drawing.Point(3, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 100);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Home";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNavBinary.FlatAppearance.BorderSize = 0;
+            this.btnNavBinary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNavBinary.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNavBinary.ForeColor = System.Drawing.Color.White;
+            this.btnNavBinary.Image = ((System.Drawing.Image)(resources.GetObject("btnNavBinary.Image")));
+            this.btnNavBinary.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNavBinary.Location = new System.Drawing.Point(0, 100);
+            this.btnNavBinary.Name = "btnNavBinary";
+            this.btnNavBinary.Size = new System.Drawing.Size(130, 100);
+            this.btnNavBinary.TabIndex = 2;
+            this.btnNavBinary.Text = "Binary Classes";
+            this.btnNavBinary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNavBinary.UseVisualStyleBackColor = true;
+            this.btnNavBinary.Click += new System.EventHandler(this.btnNav_Click);
+            // 
+            // btnNavHome
+            // 
+            this.btnNavHome.FlatAppearance.BorderSize = 0;
+            this.btnNavHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNavHome.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNavHome.ForeColor = System.Drawing.Color.White;
+            this.btnNavHome.Image = ((System.Drawing.Image)(resources.GetObject("btnNavHome.Image")));
+            this.btnNavHome.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnNavHome.Location = new System.Drawing.Point(0, 0);
+            this.btnNavHome.Name = "btnNavHome";
+            this.btnNavHome.Size = new System.Drawing.Size(130, 100);
+            this.btnNavHome.TabIndex = 2;
+            this.btnNavHome.Text = "Home";
+            this.btnNavHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnNavHome.UseVisualStyleBackColor = true;
+            this.btnNavHome.Click += new System.EventHandler(this.btnNav_Click);
             // 
             // bunifuDragControl1
             // 
@@ -145,13 +169,14 @@
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnExit.BackgroundImage")));
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(773, 22);
+            this.btnExit.Location = new System.Drawing.Point(802, 22);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(16, 16);
             this.btnExit.TabIndex = 2;
@@ -162,7 +187,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(7, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(106, 73);
             this.panel1.TabIndex = 3;
@@ -183,9 +208,9 @@
             this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.panel1);
-            this.panel2.Location = new System.Drawing.Point(158, 16);
+            this.panel2.Location = new System.Drawing.Point(152, 16);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(112, 106);
+            this.panel2.Size = new System.Drawing.Size(120, 100);
             this.panel2.TabIndex = 3;
             // 
             // label1
@@ -193,7 +218,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(5, 81);
+            this.label1.Location = new System.Drawing.Point(9, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 18);
             this.label1.TabIndex = 4;
@@ -204,7 +229,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.label2.Location = new System.Drawing.Point(276, 22);
+            this.label2.Location = new System.Drawing.Point(278, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(182, 26);
             this.label2.TabIndex = 4;
@@ -212,24 +237,34 @@
             // 
             // btnMinimize
             // 
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize.BackgroundImage")));
             this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(746, 22);
+            this.btnMinimize.Location = new System.Drawing.Point(775, 22);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(16, 16);
             this.btnMinimize.TabIndex = 2;
             this.btnMinimize.UseVisualStyleBackColor = true;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
+            // pnlContainer
+            // 
+            this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlContainer.Location = new System.Drawing.Point(130, 116);
+            this.pnlContainer.Name = "pnlContainer";
+            this.pnlContainer.Size = new System.Drawing.Size(700, 400);
+            this.pnlContainer.TabIndex = 5;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 446);
+            this.ClientSize = new System.Drawing.Size(830, 516);
+            this.Controls.Add(this.pnlContainer);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlNavMenu);
@@ -254,10 +289,10 @@
         private System.Windows.Forms.Panel pnlTopBorder;
         private System.Windows.Forms.Panel pnlNavMenu;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnNavHome;
+        private System.Windows.Forms.Button btnNavTutorials;
+        private System.Windows.Forms.Button btnNavMultiple;
+        private System.Windows.Forms.Button btnNavBinary;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -265,6 +300,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.Button btnNavSettings;
+        private System.Windows.Forms.Panel pnlContainer;
     }
 }
 
