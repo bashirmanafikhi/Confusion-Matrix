@@ -16,22 +16,11 @@ namespace Confusion_Matrix_Library
             this.fn = fn;
         }
 
-        public double Accuracy
-        {
-            get
-            {
-                return (tp + tn) / (tp + fp + tn + fn);
-            }
-        }
 
-        public double ErrorRate
-        {
-            get
-            {
-                return (fp + fn) / (tp + fp + tn + fn);
-            }
-        }
 
+
+
+        // Sensitivity		TPR = TP / (TP + FN)
         public double Recall
         {
             get
@@ -40,6 +29,7 @@ namespace Confusion_Matrix_Library
             }
         }
 
+        // Specificity		SPC = TN / (FP + TN)
         public double Specificity
         {
             get
@@ -48,5 +38,77 @@ namespace Confusion_Matrix_Library
             }
         }
 
+        // Precision		PPV = TP / (TP + FP)
+        public double Precision
+        {
+            get
+            {
+                return (tp) / (tp + fp);
+            }
+        }
+
+        // Negative Predictive Value		NPV = TN / (TN + FN)
+        public double NegativePredictiveValue
+        {
+            get
+            {
+                return (tn) / (tn + fn);
+            }
+        }
+
+        // False Positive Rate		FPR = FP / (FP + TN)
+        public double FalsePositiveRate
+        {
+            get
+            {
+                return (fp) / (fp + tn);
+            }
+        }
+
+        // False Discovery Rate		FDR = FP / (FP + TP)
+        public double FalseDiscoveryRate
+        {
+            get
+            {
+                return (fp) / (fp + tp);
+            }
+        }
+
+        // False Negative Rate		FNR = FN / (FN + TP)
+        public double FalseNegativeRate
+        {
+            get
+            {
+                return (fn) / (fn + tp);
+            }
+        }
+
+        // Accuracy		ACC = (TP + TN) / (P + N)
+        public double Accuracy
+        {
+            get
+            {
+                return (tp + tn) / (tp + fp + tn + fn);
+            }
+        }
+
+        // F1 Score		F1 = 2TP / (2TP + FP + FN)
+        public double F1Score
+        {
+            get
+            {
+                return 2 * Precision * Recall / (Precision + Recall);
+                //return (2*tp) / (2*tp + fp + fn);  this is another formula from the internet
+            }
+        }
+
+        // Error Rate
+        public double ErrorRate
+        {
+            get
+            {
+                return (fp + fn) / (tp + fp + tn + fn);
+            }
+        }
     }
 }

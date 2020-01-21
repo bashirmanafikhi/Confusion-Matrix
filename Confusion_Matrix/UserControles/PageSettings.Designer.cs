@@ -49,7 +49,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.label1);
             this.Name = "PageSettings";
-            this.Size = new System.Drawing.Size(700, 400);
+            this.Size = new System.Drawing.Size(900, 500);
             this.ResumeLayout(false);
             this.PerformLayout();
 

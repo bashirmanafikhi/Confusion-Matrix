@@ -48,8 +48,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.pnlContainer = new System.Windows.Forms.Panel();
-            this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.pageHome1 = new Confusion_Matrix.UserControles.PageHome();
+            this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.pnlNavMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,7 +64,7 @@
             this.pnlTopBorder.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopBorder.Location = new System.Drawing.Point(0, 0);
             this.pnlTopBorder.Name = "pnlTopBorder";
-            this.pnlTopBorder.Size = new System.Drawing.Size(830, 16);
+            this.pnlTopBorder.Size = new System.Drawing.Size(1030, 16);
             this.pnlTopBorder.TabIndex = 0;
             // 
             // pnlNavMenu
@@ -80,7 +80,7 @@
             this.pnlNavMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlNavMenu.Location = new System.Drawing.Point(0, 16);
             this.pnlNavMenu.Name = "pnlNavMenu";
-            this.pnlNavMenu.Size = new System.Drawing.Size(130, 500);
+            this.pnlNavMenu.Size = new System.Drawing.Size(130, 600);
             this.pnlNavMenu.TabIndex = 1;
             // 
             // pnlRibon
@@ -123,7 +123,7 @@
             this.btnNavTutorials.Name = "btnNavTutorials";
             this.btnNavTutorials.Size = new System.Drawing.Size(130, 100);
             this.btnNavTutorials.TabIndex = 2;
-            this.btnNavTutorials.Text = "Toturials";
+            this.btnNavTutorials.Text = "Measures";
             this.btnNavTutorials.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnNavTutorials.UseVisualStyleBackColor = true;
             this.btnNavTutorials.Click += new System.EventHandler(this.btnNav_Click);
@@ -159,7 +159,7 @@
             this.btnNavBinary.Name = "btnNavBinary";
             this.btnNavBinary.Size = new System.Drawing.Size(130, 100);
             this.btnNavBinary.TabIndex = 2;
-            this.btnNavBinary.Text = "Binary Classes";
+            this.btnNavBinary.Text = "Binary Classes Calculator";
             this.btnNavBinary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnNavBinary.UseVisualStyleBackColor = true;
             this.btnNavBinary.Click += new System.EventHandler(this.btnNav_Click);
@@ -199,7 +199,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(802, 22);
+            this.btnExit.Location = new System.Drawing.Point(1002, 22);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(16, 16);
             this.btnExit.TabIndex = 2;
@@ -211,9 +211,9 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.pictureBox1);
             this.bunifuTransition1.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.panel1.Location = new System.Drawing.Point(7, 3);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(106, 73);
+            this.panel1.Size = new System.Drawing.Size(139, 73);
             this.panel1.TabIndex = 3;
             // 
             // pictureBox1
@@ -223,7 +223,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(106, 73);
+            this.pictureBox1.Size = new System.Drawing.Size(139, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -236,7 +236,7 @@
             this.bunifuTransition1.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
             this.panel2.Location = new System.Drawing.Point(152, 16);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(120, 100);
+            this.panel2.Size = new System.Drawing.Size(145, 100);
             this.panel2.TabIndex = 3;
             // 
             // label1
@@ -245,23 +245,22 @@
             this.bunifuTransition1.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(9, 81);
+            this.label1.Location = new System.Drawing.Point(5, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 18);
+            this.label1.Size = new System.Drawing.Size(138, 18);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Murat KOKLU";
+            this.label1.Text = "DR. MURAT KÖKLÜ";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.label2.Location = new System.Drawing.Point(278, 22);
+            this.label2.Location = new System.Drawing.Point(313, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 26);
+            this.label2.Size = new System.Drawing.Size(208, 79);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Confusion Matix";
+            this.label2.Text = "CONFUSION MATRIX";
             // 
             // btnMinimize
             // 
@@ -273,7 +272,7 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(775, 22);
+            this.btnMinimize.Location = new System.Drawing.Point(975, 22);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(16, 16);
             this.btnMinimize.TabIndex = 2;
@@ -287,8 +286,19 @@
             this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlContainer.Location = new System.Drawing.Point(130, 116);
             this.pnlContainer.Name = "pnlContainer";
-            this.pnlContainer.Size = new System.Drawing.Size(700, 400);
+            this.pnlContainer.Size = new System.Drawing.Size(900, 500);
             this.pnlContainer.TabIndex = 5;
+            // 
+            // pageHome1
+            // 
+            this.pageHome1.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuTransition1.SetDecoration(this.pageHome1, BunifuAnimatorNS.DecorationType.None);
+            this.pageHome1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pageHome1.Location = new System.Drawing.Point(0, 0);
+            this.pageHome1.Margin = new System.Windows.Forms.Padding(0);
+            this.pageHome1.Name = "pageHome1";
+            this.pageHome1.Size = new System.Drawing.Size(900, 500);
+            this.pageHome1.TabIndex = 0;
             // 
             // bunifuTransition1
             // 
@@ -310,23 +320,15 @@
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 0F;
             this.bunifuTransition1.DefaultAnimation = animation1;
-            this.bunifuTransition1.Interval = 4;
+            this.bunifuTransition1.Interval = 3;
+            this.bunifuTransition1.MaxAnimationTime = 750;
             this.bunifuTransition1.TimeStep = 0.03F;
-            // 
-            // pageHome1
-            // 
-            this.pageHome1.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuTransition1.SetDecoration(this.pageHome1, BunifuAnimatorNS.DecorationType.None);
-            this.pageHome1.Location = new System.Drawing.Point(0, 0);
-            this.pageHome1.Name = "pageHome1";
-            this.pageHome1.Size = new System.Drawing.Size(700, 400);
-            this.pageHome1.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(830, 516);
+            this.ClientSize = new System.Drawing.Size(1030, 616);
             this.Controls.Add(this.pnlContainer);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);
@@ -337,6 +339,7 @@
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confusion Matrix";
             this.pnlNavMenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -345,7 +348,6 @@
             this.panel2.PerformLayout();
             this.pnlContainer.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -367,9 +369,9 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnNavSettings;
         private System.Windows.Forms.Panel pnlContainer;
-        private UserControles.PageHome pageHome1;
         private System.Windows.Forms.Panel pnlRibon;
         private BunifuAnimatorNS.BunifuTransition bunifuTransition1;
+        private UserControles.PageHome pageHome1;
     }
 }
 

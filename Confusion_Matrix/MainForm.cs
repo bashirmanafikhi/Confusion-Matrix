@@ -30,14 +30,13 @@ namespace Confusion_Matrix
             this.WindowState = FormWindowState.Minimized;
         }
 
-
         private void btnNav_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
 
             pnlRibon.Location = button.Location;
-            pnlRibon.Visible = false;
-            bunifuTransition1.ShowSync(pnlRibon, false, BunifuAnimatorNS.Animation.Scale);
+            //pnlRibon.Visible = false;
+            //bunifuTransition1.ShowSync(pnlRibon, false, BunifuAnimatorNS.Animation.Scale);
 
             // show the page
             pnlContainer.Controls.Clear();
@@ -65,7 +64,7 @@ namespace Confusion_Matrix
 
             page.Visible = false;
             pnlContainer.Controls.Add(page);
-            bunifuTransition1.ShowSync(page, false, BunifuAnimatorNS.Animation.Rotate);
+            bunifuTransition1.Show(page, false, BunifuAnimatorNS.Animation.HorizSlide);
         }
     }
 }
