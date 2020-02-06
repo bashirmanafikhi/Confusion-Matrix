@@ -32,6 +32,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Details));
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnMoreDetails = new System.Windows.Forms.Button();
@@ -54,32 +55,23 @@
             // 
             // lblTitle
             // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.lblTitle, "lblTitle");
             this.lblTitle.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblTitle.Location = new System.Drawing.Point(12, 16);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(259, 26);
-            this.lblTitle.TabIndex = 5;
-            this.lblTitle.Text = "Confusion Matix Details";
             // 
             // btnMoreDetails
             // 
+            resources.ApplyResources(this.btnMoreDetails, "btnMoreDetails");
             this.btnMoreDetails.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnMoreDetails.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnMoreDetails.FlatAppearance.BorderSize = 0;
-            this.btnMoreDetails.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMoreDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMoreDetails.ForeColor = System.Drawing.Color.White;
-            this.btnMoreDetails.Location = new System.Drawing.Point(497, 10);
             this.btnMoreDetails.Name = "btnMoreDetails";
-            this.btnMoreDetails.Size = new System.Drawing.Size(116, 37);
-            this.btnMoreDetails.TabIndex = 10;
-            this.btnMoreDetails.Text = "Close";
             this.btnMoreDetails.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToResizeColumns = false;
@@ -106,7 +98,6 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 55);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -117,37 +108,34 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView1.RowHeadersWidth = 98;
-            this.dataGridView1.Size = new System.Drawing.Size(601, 466);
-            this.dataGridView1.TabIndex = 11;
             // 
             // AccuracyColumn
             // 
-            this.AccuracyColumn.HeaderText = "Accuracy";
+            resources.ApplyResources(this.AccuracyColumn, "AccuracyColumn");
             this.AccuracyColumn.Name = "AccuracyColumn";
             this.AccuracyColumn.ReadOnly = true;
             // 
             // ErrorRateColumn
             // 
-            this.ErrorRateColumn.HeaderText = "ErrorRate";
+            resources.ApplyResources(this.ErrorRateColumn, "ErrorRateColumn");
             this.ErrorRateColumn.Name = "ErrorRateColumn";
             this.ErrorRateColumn.ReadOnly = true;
             // 
             // RecallColumn
             // 
-            this.RecallColumn.HeaderText = "Recall";
+            resources.ApplyResources(this.RecallColumn, "RecallColumn");
             this.RecallColumn.Name = "RecallColumn";
             this.RecallColumn.ReadOnly = true;
             // 
             // F1ScoreColumn
             // 
-            this.F1ScoreColumn.HeaderText = "F1-Score";
+            resources.ApplyResources(this.F1ScoreColumn, "F1ScoreColumn");
             this.F1ScoreColumn.Name = "F1ScoreColumn";
             this.F1ScoreColumn.ReadOnly = true;
             // 
             // PrecisionColumn
             // 
-            this.PrecisionColumn.HeaderText = "Precision";
+            resources.ApplyResources(this.PrecisionColumn, "PrecisionColumn");
             this.PrecisionColumn.Name = "PrecisionColumn";
             this.PrecisionColumn.ReadOnly = true;
             // 
@@ -160,17 +148,15 @@
             // 
             // Details
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(625, 533);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnMoreDetails);
             this.Controls.Add(this.lblTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Details";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Confusion Matrix Details";
+            this.ShowInTaskbar = false;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

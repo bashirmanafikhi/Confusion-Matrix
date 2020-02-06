@@ -33,5 +33,22 @@ namespace Confusion_Matrix.UserControles
             lblPrecision.Text = confusion.Precision.ToString("0.0000");
             lblF1Score.Text = confusion.F1Score.ToString("0.0000");
         }
+
+        private void btnCopy_Click(object sender, EventArgs e)
+        {
+            string message = "";
+
+            message += "Accuracy : " + lblAccuracy.Text + "\n";
+            message += "Error Rate : " + lblErrorRate.Text + "\n";
+            message += "Recall : " + lblRecall.Text + "\n"; 
+            message += "Specifity : " + lblSpecificity.Text + "\n";
+            message += "Precision : " + lblPrecision.Text + "\n";
+            message += "F1 Score : " + lblF1Score.Text;
+
+
+
+            System.Windows.Forms.Clipboard.SetText(message);
+            Toast.ShowMessage("Coppied!");
+        }
     }
 }

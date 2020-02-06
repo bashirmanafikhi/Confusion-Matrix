@@ -117,44 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="bunifuTransition1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>177, 17</value>
-  </metadata>
-  <data name="animation1.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation1.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation1.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation1.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="animation1.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -509,100 +471,11 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>825, 5</value>
-  </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 23</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>pnlTopBorder</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmbLanguage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="cmbLanguage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="cmbLanguage.Items" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="cmbLanguage.Items1" xml:space="preserve">
-    <value>Türkçe</value>
-  </data>
-  <data name="cmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>852, 4</value>
-  </data>
-  <data name="cmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 24</value>
-  </data>
-  <data name="cmbLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;cmbLanguage.Name" xml:space="preserve">
-    <value>cmbLanguage</value>
-  </data>
-  <data name="&gt;&gt;cmbLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmbLanguage.Parent" xml:space="preserve">
-    <value>pnlTopBorder</value>
-  </data>
-  <data name="&gt;&gt;cmbLanguage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14pt, style=Bold</value>
-  </data>
-  <data name="lblTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 5</value>
-  </data>
   <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
-  </data>
-  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>201, 23</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
-    <value>CONFUSION MATRIX</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
-    <value>lblTitle</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
-    <value>pnlTopBorder</value>
-  </data>
-  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+    <value>KONFÜZYON MATRİSİ</value>
   </data>
   <data name="btnExit.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -613,42 +486,6 @@
         66C9r6S7VXC/OyG7Ih8Z2rxuAobtVwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnExit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
-  </data>
-  <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1004, 8</value>
-  </data>
-  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
-    <value>btnExit</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
-    <value>pnlTopBorder</value>
-  </data>
-  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnMinimize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <data name="btnMinimize.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAR
@@ -657,89 +494,40 @@
         ePcAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnMinimize.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="animation2.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
   </data>
-  <data name="btnMinimize.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="animation2.MosaicCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
   </data>
-  <data name="btnMinimize.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
+  <data name="animation2.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
   </data>
-  <data name="btnMinimize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="animation2.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
   </data>
-  <data name="btnMinimize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 8</value>
-  </data>
-  <data name="btnMinimize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="btnMinimize.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.Name" xml:space="preserve">
-    <value>btnMinimize</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.Parent" xml:space="preserve">
-    <value>pnlTopBorder</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pnlTopBorder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pnlTopBorder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlTopBorder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1030, 32</value>
-  </data>
-  <data name="pnlTopBorder.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pnlTopBorder.Name" xml:space="preserve">
-    <value>pnlTopBorder</value>
-  </data>
-  <data name="&gt;&gt;pnlTopBorder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlTopBorder.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlTopBorder.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pnlRibon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlRibon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 100</value>
-  </data>
-  <data name="pnlRibon.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;pnlRibon.Name" xml:space="preserve">
-    <value>pnlRibon</value>
-  </data>
-  <data name="&gt;&gt;pnlRibon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlRibon.Parent" xml:space="preserve">
-    <value>pnlNavMenu</value>
-  </data>
-  <data name="&gt;&gt;pnlRibon.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnNavSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNavSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
+  <data name="animation2.SlideCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
+</value>
   </data>
   <data name="btnNavSettings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -751,101 +539,26 @@
         P57qczfvRYcfuAu6WUFTvQG1bthPusIVtgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnNavSettings.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="btnNavSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnNavSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 400</value>
-  </data>
-  <data name="btnNavSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 100</value>
-  </data>
-  <data name="btnNavSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="btnNavSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="btnNavSettings.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="btnNavSettings.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btnNavSettings.Name" xml:space="preserve">
-    <value>btnNavSettings</value>
-  </data>
-  <data name="&gt;&gt;btnNavSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNavSettings.Parent" xml:space="preserve">
-    <value>pnlNavMenu</value>
-  </data>
-  <data name="&gt;&gt;btnNavSettings.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnNavTutorials.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNavTutorials.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
+    <value>Ayarlar</value>
   </data>
   <data name="btnNavTutorials.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAAhhJREFUSEutlTFIVWEUxx+1VUQ4BCEEoSEauDoGFUGQCEK2CYKB0CCuChK0SFa7
-        U6BjS0tzTgouDtbwXoSD1FSipiJGXH//y/ku557vFZUNP757/vec//nuud99r1EURY1ms/k7nsE2HMBX
-        eNhqtRqe6JcJFP2Ke1BEML3+vxq8AZm+hSHYhWO4AVVe9MsEn+xhd1usajCinbJeNM5AlRf9MsEnB96D
-        RvLYGrQl+mVCuyK4DPugkVw1rS3RLxNccgfcMZ6AxnPI7m+Z1gc+vyT6ZYJLHoHqtAjMfbwKPr8k+mWC
-        S9bpWMJ0kbUFMiUsY+mPoDqeaH/doMSKn4MavEpm0TgR/TIhFsB5+AIa0ZQ3/acGaWeOs/CTYj3BgBnd
-        hHH0MYv7QdeT0a8WCCvwdMMR6Anumjaq2LQ51s8Wb0S/WiAoiExY8SfQuFLjFe6VTQx9Jx3RrxYIkiIP
-        QAabThM9UD4Z/IBByPwyIexeLJjJsgwc5+A76N56yo9+meCME+/MZBYqneukiz20HunRLxNk4rgEHyjU
-        y5yWgZHeS/V1s87pXvTLBJI9On6lCfTLgPi2NNP1D/cyxXAt+tUCQZKnC1Jxr2n3MX7BOmMNhX4M56Ez
-        +tUCQZLGcgF0PQwy1zm/Ylp6B9XqiX6ZQJK+2m+gf64FUIM1FSdO22AHyrHI3Bo8VXHiVA0o0qw/gr5M
-        8VqFnj9vUDROAJXFgmytAPisAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAIYSURBVEhLrZUxSFVhFMcftVVEOAQhBKEhGrg6BhVBkAhC
+        tgmCgdAgrgoStEhWu1OgY0tLc04KLg7W8F6Eg9RUoqYiRlx//8v5Luee7xWVDT++e/73nP/57rnffa9R
+        FEWNZrP5O57BNhzAV3jYarUanuiXCRT9intQRDC9/r8avAGZvoUh2IVjuAFVXvTLBJ/sYXdbrGowop2y
+        XjTOQJUX/TLBJwfeg0by2Bq0JfplQrsiuAz7oJFcNa0t0S8TXHIH3DGegMZzyO5vmdYHPr8k+mWCSx6B
+        6rQIzH28Cj6/JPplgkvW6VjCdJG1BTIlLGPpj6A6nmh/3aDEip+DGrxKZtE4Ef0yIRbAefgCGtGUN/2n
+        BmlnjrPwk2I9wYAZ3YRx9DGL+0HXk9GvFggr8HTDEegJ7po2qti0OdbPFm9Ev1ogKIhMWPEn0LhS4xXu
+        lU0MfScd0a8WCJIiD0AGm04TPVA+GfyAQcj8MiHsXiyYybIMHOfgO+jeesqPfpngjBPvzGQWKp3rpIs9
+        tB7p0S8TZOK4BB8o1MucloGR3kv1dbPO6V70ywSSPTp+pQn0y4D4tjTT9Q/3MsVwLfrVAkGSpwtSca9p
+        9zF+wTpjDYV+DOehM/rVAkGSxnIBdD0MMtc5v2JaegfV6ol+mUCSvtpvoH+uBVCDNRUnTttgB8qxyNwa
+        PFVx4lQNKNKsP4K+TPFahZ4/b1A0TgCVxYJsrQD4rAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnNavTutorials.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="btnNavTutorials.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnNavTutorials.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 300</value>
-  </data>
-  <data name="btnNavTutorials.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 100</value>
-  </data>
-  <data name="btnNavTutorials.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="btnNavTutorials.Text" xml:space="preserve">
-    <value>Formulas</value>
-  </data>
-  <data name="btnNavTutorials.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="&gt;&gt;btnNavTutorials.Name" xml:space="preserve">
-    <value>btnNavTutorials</value>
-  </data>
-  <data name="&gt;&gt;btnNavTutorials.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNavTutorials.Parent" xml:space="preserve">
-    <value>pnlNavMenu</value>
-  </data>
-  <data name="&gt;&gt;btnNavTutorials.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnNavMultiple.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNavMultiple.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
+    <value>Formüller</value>
   </data>
   <data name="btnNavMultiple.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -856,99 +569,28 @@
         kH9jJqYDmc6SouUQGWsAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnNavMultiple.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="btnNavMultiple.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnNavMultiple.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 200</value>
-  </data>
-  <data name="btnNavMultiple.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 100</value>
-  </data>
-  <data name="btnNavMultiple.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="btnNavMultiple.Text" xml:space="preserve">
-    <value>Multiple Classes</value>
-  </data>
-  <data name="btnNavMultiple.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="&gt;&gt;btnNavMultiple.Name" xml:space="preserve">
-    <value>btnNavMultiple</value>
-  </data>
-  <data name="&gt;&gt;btnNavMultiple.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNavMultiple.Parent" xml:space="preserve">
-    <value>pnlNavMenu</value>
-  </data>
-  <data name="&gt;&gt;btnNavMultiple.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnNavBinary.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNavBinary.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
+    <value>Birden Fazla Sınıf</value>
   </data>
   <data name="btnNavBinary.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
+        SUVORK5CYII=
 </value>
   </data>
-  <data name="btnNavBinary.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="btnNavBinary.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnNavBinary.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 100</value>
-  </data>
-  <data name="btnNavBinary.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 100</value>
-  </data>
-  <data name="btnNavBinary.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="btnNavBinary.Text" xml:space="preserve">
-    <value>Binary Classes Calculator</value>
-  </data>
-  <data name="btnNavBinary.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="&gt;&gt;btnNavBinary.Name" xml:space="preserve">
-    <value>btnNavBinary</value>
-  </data>
-  <data name="&gt;&gt;btnNavBinary.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNavBinary.Parent" xml:space="preserve">
-    <value>pnlNavMenu</value>
-  </data>
-  <data name="&gt;&gt;btnNavBinary.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnNavHome.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnNavHome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt</value>
+    <value>İkili Sınıf Hesaplama</value>
   </data>
   <data name="btnNavHome.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -960,68 +602,8 @@
         BzITXl4ZcCAz4eWVAQcyE15eGXAgM+HllQECBRxePvijrhMo1oc1H1ED4fTlGuHxAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnNavHome.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="btnNavHome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnNavHome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="btnNavHome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 100</value>
-  </data>
-  <data name="btnNavHome.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="btnNavHome.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="btnNavHome.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="&gt;&gt;btnNavHome.Name" xml:space="preserve">
-    <value>btnNavHome</value>
-  </data>
-  <data name="&gt;&gt;btnNavHome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNavHome.Parent" xml:space="preserve">
-    <value>pnlNavMenu</value>
-  </data>
-  <data name="&gt;&gt;btnNavHome.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pnlNavMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="pnlNavMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 32</value>
-  </data>
-  <data name="pnlNavMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 600</value>
-  </data>
-  <data name="pnlNavMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pnlNavMenu.Name" xml:space="preserve">
-    <value>pnlNavMenu</value>
-  </data>
-  <data name="&gt;&gt;pnlNavMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlNavMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlNavMenu.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+    <value>Ana Sayfa</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1352,176 +934,5 @@
         IiJyEwuJiIjcxEIiIiI3sZCIiMhNLCQiInITC4mIiNzEQiIiIjexkIiIyE0sJCIichMLiYiI3MRCIiKi
         G9Tn/n/mLSRmAe/EfgAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 73</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 73</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 80</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 18</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>DR. MURAT KÖKLÜ</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 32</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 100</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="pnlContainer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 132</value>
-  </data>
-  <data name="pnlContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>900, 500</value>
-  </data>
-  <data name="pnlContainer.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pnlContainer.Name" xml:space="preserve">
-    <value>pnlContainer</value>
-  </data>
-  <data name="&gt;&gt;pnlContainer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlContainer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlContainer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="bunifuDragControl2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>324, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>65</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1030, 632</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Confusion Matrix</value>
-  </data>
-  <data name="&gt;&gt;bunifuDragControl1.Name" xml:space="preserve">
-    <value>bunifuDragControl1</value>
-  </data>
-  <data name="&gt;&gt;bunifuDragControl1.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuDragControl, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuTransition1.Name" xml:space="preserve">
-    <value>bunifuTransition1</value>
-  </data>
-  <data name="&gt;&gt;bunifuTransition1.Type" xml:space="preserve">
-    <value>BunifuAnimatorNS.BunifuTransition, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;bunifuDragControl2.Name" xml:space="preserve">
-    <value>bunifuDragControl2</value>
-  </data>
-  <data name="&gt;&gt;bunifuDragControl2.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuDragControl, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

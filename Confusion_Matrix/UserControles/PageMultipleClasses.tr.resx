@@ -117,75 +117,110 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 16pt, style=Bold</value>
+  <data name="lblOverallAccuracy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 429</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 38</value>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 429</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 26</value>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 19</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Genel Doğruluk</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Language</value>
+  <data name="btnRedraw.Text" xml:space="preserve">
+    <value>Çiz</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 24</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Sınıf Sayısı</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 27</value>
   </data>
-  <data name="cmbLanguage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Birden Fazla Sınıf</value>
   </data>
-  <data name="cmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 39</value>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 429</value>
   </data>
-  <data name="cmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 28</value>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 19</value>
   </data>
-  <data name="cmbLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Doğruluk</value>
   </data>
-  <data name="&gt;&gt;cmbLanguage.Name" xml:space="preserve">
-    <value>cmbLanguage</value>
+  <data name="lblF1Score.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 464</value>
   </data>
-  <data name="&gt;&gt;cmbLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblPrecision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 464</value>
   </data>
-  <data name="&gt;&gt;cmbLanguage.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 464</value>
   </data>
-  <data name="&gt;&gt;cmbLanguage.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="label16.Text" xml:space="preserve">
+    <value>F1-Skor</value>
   </data>
-  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>900, 500</value>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 464</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PageSettings</value>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Hassas</value>
+  </data>
+  <data name="lblRecall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 429</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 429</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Hatırlama</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 464</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Hata oranı</value>
+  </data>
+  <data name="btnMoreDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 36</value>
+  </data>
+  <data name="btnMoreDetails.Text" xml:space="preserve">
+    <value>Daha fazla detay</value>
+  </data>
+  <data name="btnCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
+        1wAADdcBQiibeAAAAK1JREFUSEvtjUsKgEAMQ73/6Vy58TAqhZQaknZw7eJBpvnMdpx7xzWgOi/k8WEa
+        mfxEHWvZDUx+oo616AaQcX5SH6rgBpB1fgLhCm6g5lu4UEdw5xvuS6yEeVx1bAaCzQ4edv3IQLDpwHDt
+        uH7kINhUYJjzrh9ZCDYZDKus60cegk0G4w7bgWCz0o10/B+MvD5YgQcmopdiAR6YiJ4ymP8DaVbwwSfU
+        oEKWZ/btBtOoatJENIvrAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 33</value>
+  </data>
+  <data name="btnCopy.Text" xml:space="preserve">
+    <value>    Sonuç kopyala</value>
   </data>
 </root>

@@ -118,267 +118,137 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 19</value>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 20pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;btnCopy.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 265</value>
-  </data>
-  <data name="&gt;&gt;numericTP.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblErrorRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 19</value>
-  </data>
-  <data name="&gt;&gt;lblRecall.Name" xml:space="preserve">
-    <value>lblRecall</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="numericFN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 144</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>F1-Score</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="numericFN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 20</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblSpecificity.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 21</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>TP</value>
-  </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 355</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>True Negative</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="lblSpecificity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 19</value>
-  </data>
-  <data name="lblAccuracy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 19</value>
-  </data>
-  <data name="numericFP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 20</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 254</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 21</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 32</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 26</value>
+    <value>115, 32</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>İkili Sınıf</value>
   </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
+  <data name="btnCalculate.Text" xml:space="preserve">
+    <value>Hesaplama</value>
   </data>
-  <data name="lblRecall.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 63</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Gerçek Pozitif</value>
   </data>
-  <data name="numericTP.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 63</value>
   </data>
-  <data name="&gt;&gt;numericTN.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 21</value>
   </data>
-  <data name="lblPrecision.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Gerçek Negatif</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>Specificity</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
   </data>
-  <data name="lblRecall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 19</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Accuracy</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnCalculate.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 19</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;numericTN.Name" xml:space="preserve">
-    <value>numericTN</value>
-  </data>
-  <data name="numericFP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>479, 101</value>
-  </data>
-  <data name="numericFN.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="lblF1Score.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Öngörülen Pozitif</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 21</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnCalculate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 104</value>
-  </data>
-  <data name="lblPrecision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 19</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 190</value>
-  </data>
-  <data name="&gt;&gt;btnCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericTN.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>156, 21</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Predicted Negative</value>
+    <value>Öngörülen Negatif</value>
   </data>
-  <data name="btnCopy.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 221</value>
   </data>
-  <data name="&gt;&gt;bunifuElipse1.Name" xml:space="preserve">
-    <value>bunifuElipse1</value>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 19</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Doğruluk</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 254</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Hata oranı</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 287</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Hatırlama</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 320</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Özgünlük</value>
+  </data>
+  <data name="lblAccuracy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 221</value>
+  </data>
+  <data name="lblErrorRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 254</value>
+  </data>
+  <data name="lblRecall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 287</value>
   </data>
   <data name="lblSpecificity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 320</value>
+    <value>214, 320</value>
   </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 355</value>
   </data>
-  <data name="&gt;&gt;numericFN.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Duyarlılık</value>
   </data>
-  <data name="&gt;&gt;lblF1Score.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblSpecificity.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lblPrecision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 355</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 390</value>
+    <value>120, 390</value>
   </data>
-  <data name="&gt;&gt;lblPrecision.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>27</value>
+  <data name="label16.Text" xml:space="preserve">
+    <value>F1-Skor</value>
   </data>
-  <data name="lblSpecificity.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblF1Score.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 390</value>
   </data>
-  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
+  <data name="btnCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
+        1wAADdcBQiibeAAAAK1JREFUSEvtjUsKgEAMQ73/6Vy58TAqhZQaknZw7eJBpvnMdpx7xzWgOi/k8WEa
+        mfxEHWvZDUx+oo616AaQcX5SH6rgBpB1fgLhCm6g5lu4UEdw5xvuS6yEeVx1bAaCzQ4edv3IQLDpwHDt
+        uH7kINhUYJjzrh9ZCDYZDKus60cegk0G4w7bgWCz0o10/B+MvD5YgQcmopdiAR6YiJ4ymP8DaVbwwSfU
+        oEKWZ/btBtOoatJENIvrAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>19</value>
+  <data name="btnCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 431</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="btnCopy.Text" xml:space="preserve">
+    <value>    Sonuç Copyala</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2132,587 +2002,4 @@
         +38P0zdJOowNpgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Recall</value>
-  </data>
-  <data name="lblErrorRate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btnCalculate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 61</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 19</value>
-  </data>
-  <data name="&gt;&gt;lblAccuracy.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numericFP.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnCalculate.Name" xml:space="preserve">
-    <value>btnCalculate</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 101</value>
-  </data>
-  <data name="lblAccuracy.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblF1Score.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="numericFP.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 38</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnCopy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PageBinaryClasses</value>
-  </data>
-  <data name="lblF1Score.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericTP.Name" xml:space="preserve">
-    <value>numericTP</value>
-  </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 19</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblRecall.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lblErrorRate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="numericTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>479, 144</value>
-  </data>
-  <data name="&gt;&gt;lblRecall.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="btnCalculate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnCalculate.Text" xml:space="preserve">
-    <value>Calculate</value>
-  </data>
-  <data name="&gt;&gt;numericTN.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnCalculate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="lblSpecificity.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 144</value>
-  </data>
-  <data name="lblErrorRate.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblAccuracy.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numericTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="lblF1Score.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblSpecificity.Name" xml:space="preserve">
-    <value>lblSpecificity</value>
-  </data>
-  <data name="lblErrorRate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numericFP.Name" xml:space="preserve">
-    <value>numericFP</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblErrorRate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 221</value>
-  </data>
-  <data name="&gt;&gt;lblAccuracy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPrecision.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 19</value>
-  </data>
-  <data name="lblRecall.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblPrecision.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>FP</value>
-  </data>
-  <data name="&gt;&gt;btnCalculate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="numericTN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 20</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>FN</value>
-  </data>
-  <data name="&gt;&gt;lblSpecificity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblRecall.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>480, 61</value>
-  </data>
-  <data name="numericTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 20</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="numericTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>321, 101</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>900, 500</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="btnCopy.Text" xml:space="preserve">
-    <value>    Copy Result</value>
-  </data>
-  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lblPrecision.Name" xml:space="preserve">
-    <value>lblPrecision</value>
-  </data>
-  <data name="&gt;&gt;numericFN.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnCopy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnCalculate.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
-  </data>
-  <data name="&gt;&gt;btnCalculate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAccuracy.Name" xml:space="preserve">
-    <value>lblAccuracy</value>
-  </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lblErrorRate.Name" xml:space="preserve">
-    <value>lblErrorRate</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;bunifuElipse1.Type" xml:space="preserve">
-    <value>Bunifu.Framework.UI.BunifuElipse, Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>True Positive</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 16pt, style=Bold</value>
-  </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 145</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Precision </value>
-  </data>
-  <data name="btnCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        1wAADdcBQiibeAAAAK1JREFUSEvtjUsKgEAMQ73/6Vy58TAqhZQaknZw7eJBpvnMdpx7xzWgOi/k8WEa
-        mfxEHWvZDUx+oo616AaQcX5SH6rgBpB1fgLhCm6g5lu4UEdw5xvuS6yEeVx1bAaCzQ4edv3IQLDpwHDt
-        uH7kINhUYJjzrh9ZCDYZDKus60cegk0G4w7bgWCz0o10/B+MvD5YgQcmopdiAR6YiJ4ymP8DaVbwwSfU
-        oEKWZ/btBtOoatJENIvrAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="lblF1Score.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 390</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 426</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 145</value>
-  </data>
-  <data name="lblRecall.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 287</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Binary Classes</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 102</value>
-  </data>
-  <data name="lblRecall.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 287</value>
-  </data>
-  <data name="&gt;&gt;numericFN.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>321, 61</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 19</value>
-  </data>
-  <data name="btnCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 40</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblPrecision.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>480, 215</value>
-  </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>TN</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;numericFN.Name" xml:space="preserve">
-    <value>numericFN</value>
-  </data>
-  <data name="&gt;&gt;lblF1Score.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAccuracy.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblF1Score.Name" xml:space="preserve">
-    <value>lblF1Score</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;btnCopy.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lblAccuracy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="lblErrorRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 254</value>
-  </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
-  </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblPrecision.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 355</value>
-  </data>
-  <data name="btnCopy.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 19</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblAccuracy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 221</value>
-  </data>
-  <data name="lblF1Score.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 19</value>
-  </data>
-  <data name="&gt;&gt;numericTP.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12pt, style=Bold</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 320</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;numericFP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblErrorRate.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnCopy.Name" xml:space="preserve">
-    <value>btnCopy</value>
-  </data>
-  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPrecision.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>ErrorRate</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 19</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;numericFP.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 102</value>
-  </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Predicted Positive</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 1</value>
-  </data>
-  <data name="numericTN.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblSpecificity.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

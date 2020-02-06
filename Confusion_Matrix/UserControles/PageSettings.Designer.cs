@@ -28,28 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PageSettings));
             this.label1 = new System.Windows.Forms.Label();
+            this.cmbLanguage = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.label1.Location = new System.Drawing.Point(299, 183);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 26);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Settings";
+            // 
+            // cmbLanguage
+            // 
+            resources.ApplyResources(this.cmbLanguage, "cmbLanguage");
+            this.cmbLanguage.FormattingEnabled = true;
+            this.cmbLanguage.Name = "cmbLanguage";
+            this.cmbLanguage.SelectedIndexChanged += new System.EventHandler(this.cmbLanguage_SelectedIndexChanged);
             // 
             // PageSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.cmbLanguage);
             this.Controls.Add(this.label1);
             this.Name = "PageSettings";
-            this.Size = new System.Drawing.Size(900, 500);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -58,5 +62,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cmbLanguage;
     }
 }

@@ -25,7 +25,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (tp) / (tp + fn);
+                double result = (tp) / (tp + fn);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -34,7 +39,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (tn) / (tn + fp);
+                double result = (tn) / (tn + fp);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -43,7 +53,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (tp) / (tp + fp);
+                double result = (tp) / (tp + fp);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -52,7 +67,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (tn) / (tn + fn);
+                double result = (tn) / (tn + fn);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -61,7 +81,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (fp) / (fp + tn);
+                double result = (fp) / (fp + tn);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -70,7 +95,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (fp) / (fp + tp);
+                double result = (fp) / (fp + tp);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -79,7 +109,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (fn) / (fn + tp);
+                double result = (fn) / (fn + tp);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -88,7 +123,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (tp + tn) / (tp + fp + tn + fn);
+                double result = (tp + tn) / (tp + fp + tn + fn);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -97,8 +137,15 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return 2 * Precision * Recall / (Precision + Recall);
-                //return (2*tp) / (2*tp + fp + fn);  this is another formula from the internet
+                double result = 2 * Precision * Recall / (Precision + Recall);
+                //result = (2*tp) / (2*tp + fp + fn);  this is another formula from the internet
+
+
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
 
@@ -107,7 +154,12 @@ namespace Confusion_Matrix_Library
         {
             get
             {
-                return (fp + fn) / (tp + fp + tn + fn);
+                double result = (fp + fn) / (tp + fp + tn + fn);
+
+                if (double.IsNaN(result) || double.IsInfinity(result))
+                    result = 0;
+
+                return result;
             }
         }
     }

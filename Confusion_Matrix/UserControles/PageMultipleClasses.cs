@@ -175,7 +175,7 @@ namespace Confusion_Matrix.UserControles
 
 
 
-            lblOverallAccuracy.Text = confusion.OverallAccuracy.ToString("0.0000") + "%";
+            lblOverallAccuracy.Text = confusion.OverallAccuracy.ToString("0.00") + "%";
             lblAccuracy.Text = confusion.Accuracy().ToString("0.0000");
             lblErrorRate.Text = confusion.ErrorRate().ToString("0.0000");
             lblF1Score.Text = confusion.F1Score().ToString("0.0000");
@@ -188,7 +188,7 @@ namespace Confusion_Matrix.UserControles
         {
             if (e.RowIndex > 0 && e.ColumnIndex > 0 && e.RowIndex < dataGridView.Rows.Count - 1 && e.ColumnIndex < dataGridView.Columns.Count - 1)
             {
-                lblCurrentCell.Text = "row " + e.RowIndex + " - column " + e.ColumnIndex;
+                lblCurrentCell.Text = "Actual " + e.ColumnIndex + " - Predicted " + e.RowIndex;
             }
             else
             {
@@ -200,6 +200,23 @@ namespace Confusion_Matrix.UserControles
         {
             Details details = new Details(confusion);
             details.ShowDialog();
+        }
+
+        private void btnCopy_Click(object sender, EventArgs e)
+        {
+            string message = "";
+
+            message += "Overall Accuracy : " + lblOverallAccuracy.Text + "\n";
+            message += "Accuracy : " + lblAccuracy.Text + "\n";
+            message += "Error Rate : " + lblErrorRate.Text + "\n";
+            message += "F1 Score : " + lblF1Score.Text + "\n";
+            message += "Precision : " + lblPrecision.Text + "\n";
+            message += "Recall : " + lblRecall.Text;
+
+
+
+            System.Windows.Forms.Clipboard.SetText(message);
+            Toast.ShowMessage("Coppied!");
         }
     }
 }
