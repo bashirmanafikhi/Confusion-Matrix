@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confusion_Matrix", "Confusion_Matrix\Confusion_Matrix.csproj", "{791CAC93-195C-4F60-92D2-BCF0EFEC2B1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confusion_Matrix_Library", "Confusion_Matrix_Library\Confusion_Matrix_Library.csproj", "{CC2B4475-00FB-4B55-A98A-D7AFAFDC3A52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confusion_Matrix_Library", "Confusion_Matrix_Library\Confusion_Matrix_Library.csproj", "{CC2B4475-00FB-4B55-A98A-D7AFAFDC3A52}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ConfusionMatrixSetup", "ConfusionMatrixSetup\ConfusionMatrixSetup.vdproj", "{286E70E3-3BB1-45FA-A25F-7171696ED443}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,8 @@ Global
 		{CC2B4475-00FB-4B55-A98A-D7AFAFDC3A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2B4475-00FB-4B55-A98A-D7AFAFDC3A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC2B4475-00FB-4B55-A98A-D7AFAFDC3A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286E70E3-3BB1-45FA-A25F-7171696ED443}.Debug|Any CPU.ActiveCfg = Debug
+		{286E70E3-3BB1-45FA-A25F-7171696ED443}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
