@@ -45,19 +45,12 @@
             this.btnNavBinary = new System.Windows.Forms.Button();
             this.btnNavHome = new System.Windows.Forms.Button();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pnlContainer = new System.Windows.Forms.Panel();
             this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.pnlTopBorder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnlNavMenu.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTopBorder
@@ -196,37 +189,6 @@
             this.bunifuDragControl1.TargetControl = this.pnlTopBorder;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.bunifuTransition1.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            // 
-            // pictureBox1
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.panel1);
-            this.bunifuTransition1.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.bunifuTransition1.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Name = "label1";
-            // 
             // pnlContainer
             // 
             this.bunifuTransition1.SetDecoration(this.pnlContainer, BunifuAnimatorNS.DecorationType.None);
@@ -270,7 +232,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.pnlContainer);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlNavMenu);
             this.Controls.Add(this.pnlTopBorder);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
@@ -281,10 +242,6 @@
             this.pnlTopBorder.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnlNavMenu.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -299,10 +256,6 @@
         private System.Windows.Forms.Button btnNavMultiple;
         private System.Windows.Forms.Button btnNavBinary;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnNavSettings;
